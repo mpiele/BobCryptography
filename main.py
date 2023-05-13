@@ -13,6 +13,13 @@ def Crypt_abc(text):
                 final_text = final_text + "x"
             else:
                 final_text = final_text + character
+            final_text = final_text + "w"
         return final_text
 
 print(Crypt_abc(text_input))
+
+with open("crypted_text.txt", "w") as file:
+    file.write(Crypt_abc(text_input))
+
+input()
+
