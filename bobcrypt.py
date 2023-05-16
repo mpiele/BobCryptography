@@ -6,8 +6,8 @@ for index, letter in enumerate("abcdefghijklmnopqrstuvwxyz"):
 #reverse the aplhabet_positions dictionary
 alphabet_positions_reversed = {value: key for key, value in alphabet_positions.items()}
 
-#function used to crypt text using the ABC cryptography method
-def Crypt_ABC(text):
+#function used to encrypt text using the ABC cryptography algorithm
+def Encrypt_ABC(text):
         final_text = ""
         for character in text.lower():
             if character.isalpha():
@@ -19,7 +19,7 @@ def Crypt_ABC(text):
             final_text = final_text + "w"
         return final_text
 
-#function used to decrypt text using the ABC cryptography method
+#function used to decrypt text using the ABC cryptography algorithm
 def Decrypt_ABC(text):
         final_text = ""
         def separate_string(string):
