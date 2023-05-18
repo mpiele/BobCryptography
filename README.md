@@ -2,6 +2,8 @@
 
 A python library that can encrypt and decrypt strings with ease.
 
+***NOTE: THIS LIBRARY IS MADE JUST FOR FUN AND SHOULD NOT BE USED IN REAL SECURITY RELATED PROJECTS. USE AT YOUR OWN RISK.*** 
+
 ## Installation
 
 Download the ```bobcrypt.py``` file and put it in the same folder as your project files.
